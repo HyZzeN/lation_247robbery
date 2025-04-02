@@ -30,7 +30,7 @@ return {
         progress = 'ox_lib',
         -- Do you want to be notified via server console if an update is available?
         -- True if yes, false if no
-        version = true,
+        version = false,
         -- Once a store robbery has succesfully started a cooldown begins
         -- This is per-player and not a global cooldown (cooldown is in seconds)
         cooldown = 600,
@@ -54,7 +54,7 @@ return {
         -- Available options: 'cd_dispatch', 'ps-dispatch', 'qs-dispatch'
         -- 'core_dispatch', 'rcore_dispatch', aty_dispatch', 'op-dispatch',
         -- 'origen_police', 'emergencydispatch' & 'custom' option
-        dispatch = 'custom',
+        dispatch = 'ps-dispatch',
         -- Risk is a feature you can enable that will increase the players
         -- Reward payout based on the number of police online during the robbery!
         -- Do you want to enable the risk feature?
@@ -81,7 +81,7 @@ return {
             difficulty = { 'easy', 'easy', 'easy', 'easy', 'easy','easy', },
             -- The 'inputs' are the keys that will be used for the skillcheck
             -- Minigame and can be set to any key or keys of your choice
-            inputs = { 'W', 'A', 'S', 'D' }
+            inputs = { 'Z', 'Q', 'S', 'D' }
         },
         -- After a successful register robbery, what item(s) do you want to reward?
         -- { item = 'some_item', min = 1, max = 1, chance = 100, metadata = { ['key'] = value } }
@@ -124,7 +124,7 @@ return {
             difficulty = { 'easy', 'easy', 'easy', 'easy', 'easy','easy', },
             -- The 'inputs' are the keys that will be used for the skillcheck
             -- Minigame and can be set to any key or keys of your choice
-            inputs = { 'W', 'A', 'S', 'D' }
+            inputs = { 'Z', 'Q', 'S', 'D' }
         },
     },
 

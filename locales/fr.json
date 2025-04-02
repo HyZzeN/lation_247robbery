@@ -1,0 +1,44 @@
+{
+    "notify": {
+        "cancel-rob": "Vous avez interrompu le braquage de la caisse",
+        "cooldown": "Ça semble être une mauvaise idée - je devrais attendre",
+        "no-police": "Il n'y a pas assez de policiers en ville",
+        "missing-item": "Ce serait plus facile avec un outil adapté",
+        "item-broke": "Vous avez cassé le crochet et échoué à ouvrir la caisse",
+        "failed-hack": "Vous avez échoué à pirater l'ordinateur",
+        "wrong-pin": "Ça ne semble pas correct... c'est toujours verrouillé",
+        "failed-limit": "Vous avez échoué trop de fois et raté le braquage du magasin"
+    },
+    "target": {
+        "register": "Braquer la caisse",
+        "computer": "Se connecter",
+        "safe": "Déverrouiller"
+    },
+    "alerts": {
+        "note": {
+            "header": "**Note trouvée**",
+            "content": "Vous avez trouvé une note intéressante sous la caisse avec uniquement les chiffres suivants écrits : %s"
+        },
+        "hack": {
+            "header": "**Code révélé**",
+            "content": "Vous avez réussi à pirater l'ordinateur et trouvez le code suivant : %s"
+        }
+    },
+    "inputs": {
+        "questions": {
+            "header": "Questions de sécurité"
+        },
+        "safe": {
+            "header": "Coffre du magasin",
+            "label": "Entrer le code PIN",
+            "desc": "Saisissez le code PIN pour déverrouiller le coffre",
+            "placeholder": "1234"
+        }
+    },
+    "logs": {
+        "register-robbed-title": "Caisse braquée",
+        "register-robbed-message": "%s (identifiant : %s) a réussi à braquer une caisse pour %s",
+        "safe-robbed-title": "Coffre braqué",
+        "safe-robbed-message": "%s (identifiant : %s) a réussi à braquer un coffre pour %s"
+    }
+}

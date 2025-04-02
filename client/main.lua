@@ -70,6 +70,7 @@ local function InitiateRegisterRobbery()
         street = GetStreetNameFromHashKey(GetStreetNameAtCoord(coords.x, coords.y, coords.z))
     }
     PoliceDispatch(data)
+    exports['fenix-police']:ApplyWantedLevel(2)
     if ProgressBar(cl_config.anims.register) then
         local codeChance = math.random(100)
         if codeChance <= sh_config.registers.noteChance then
